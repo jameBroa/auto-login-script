@@ -13,7 +13,7 @@ If you're running it for the first time follow the steps below:
 If you've done the steps above once already then:
 1) Navigate to the same path
 2) Run the command 'python edLogin'
-3) The proggram should automatically log you in
+3) The program should automatically log you in
 
 ## Compatability
 Currently, this script only works on Windows. It also requires that you have a version of Chrome installed which matches with chromedriver.exe.

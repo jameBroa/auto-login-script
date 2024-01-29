@@ -4,6 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import sys
 
+from webdriver_manager.chrome import ChromeDriverManager
+
 if len(sys.argv) > 1:
     if sys.argv[1] == '-n':
         print('Enter student number')
@@ -55,4 +57,5 @@ def login(url, username, password):
 
 
 login('https://www.myed.ed.ac.uk/myed-progressive/', u, p)
+print("Successfully logged in!")
 
